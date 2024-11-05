@@ -1,0 +1,9 @@
+#expressions
+x=8
+y=2
+print(x+y*3)
+print((x+y)*3)
+print(x**y)
+print(x%y)
+print(x/12.0)
+print(x//6)

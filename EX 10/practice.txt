@@ -1,0 +1,21 @@
+def edit(f):
+    uc=0
+    lc=0
+    nc=0
+    word=f.read()
+    s=word.split("\n")
+    for line in s:
+        words=line.split(" ")
+        for w in words:
+            for ch in w:
+                if ch.isupper():
+                    f1.write(ch)
+                elif ch.islower():
+                    f1.write(ch)
+                elif ch.isnumeric():
+                    f1.write(ch)
+            f1.write(" ")
+        f1.write("\n")
+f=open("t1.txt","r+")
+f1=open("t2.txt","w")
+edit(f)

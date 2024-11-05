@@ -1,0 +1,46 @@
+"""def assignment_analyser(f):"""
+ 
+    cl=0 
+    rl=f.readlines()
+ 
+    for i in rl: 
+        cl+=1 
+        w=i.split(" ") 
+        for word in w: 
+            cw+= 
+            for ch in word: 
+                cc+=1 
+    print("the no of lines :",cl) 
+    print("the number of words: ",cw) 
+    print("the number of characters:",cc) 
+f=open("assignment.txt","r") 
+print(assignment_analyser(f)) 
+
+ 
+
+ 
+
+ 
+"""def assignment_analyser(f):"""
+ 
+    cl=0 
+    rl=f.readlines()
+ 
+    for i in rl: 
+        cl+=1 
+        w=i.split(" ") 
+        for word in w: 
+            cw+= 
+            for ch in word: 
+                cc+=1 
+    print("the no of lines :",cl) 
+    print("the number of words: ",cw) 
+    print("the number of characters:",cc) 
+f=open("assignment.txt","r") 
+print(assignment_analyser(f)) 
+
+ 
+
+ 
+
+ 

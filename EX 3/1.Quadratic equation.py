@@ -1,0 +1,6 @@
+a=int(input('enter coeff of x^2: '))
+b=int(input('enter coeff of x: '))
+c=int(input('enter constant term: '))
+root1=complex(-b+(((b**2)-(4*a*c))**0.5))/(2*a)
+root2=complex(-b-(((b**2)-(4*a*c))**0.5))/(2*a)
+print('the roots are:',root1,'and',root2)
